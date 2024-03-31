@@ -1,0 +1,71 @@
+/* ...................shared style................  */
+*{
+    margin: 10px 20px;
+}
+/* ....................nav style ................... */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-img{
+    width: 100%;
+    width: 100%;
+    margin-right: -20px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 44px;
+}
+.nav-heading{
+    font-size: 30px;
+}
+.travel{
+    color: #FF5400;
+font-weight: 800;
+}
+.home{
+    color: #FF5400;
+}
+.icon{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    nav > ul{
+        display: none;
+    }
+    *{
+        margin: 5px 8px;
+    }
+
+}
+@media  screen and (min-width:600px) {
+    .icon{
+        display: none;
+    }
+}
