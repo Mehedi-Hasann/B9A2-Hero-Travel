@@ -1,40 +1,290 @@
 /* ...................shared style................  */
-*{
-    margin: 10px 20px;
+.header,
+.main,
+img-section {
+  margin: 20px 100px;
 }
+.description {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.description2 {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+}
+.hero-travel{
+    margin-left: 20px;
+}
+
 /* ....................nav style ................... */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.nav-title{
-    display: flex;
-    align-items: center;
-    
+.nav-title {
+  display: flex;
+  align-items: center;
 }
-.nav-img{
-    width: 100%;
-    width: 100%;
-    margin-right: -20px;
+.nav-img {
+  width: 100%;
+  width: 100%;
+  margin-right: -20px;
 }
-nav > ul{
-    display: flex;
-    list-style: none;
-    gap: 44px;
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 44px;
 }
-.nav-heading{
-    font-size: 30px;
+.nav-heading {
+  font-size: 30px;
 }
-.travel{
-    color: #FF5400;
+.travel {
+  color: #ff5400;
+  font-weight: 800;
+}
+.home {
+  color: #ff5400;
+}
+.icon {
+  font-size: 40px;
+}
+
+/*................ banner style.................  */
+
+.banner {
+  text-align: center;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px 150px;
+  border-radius: 16px;
+}
+.banner-title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+}
+.banner .description {
+  max-width: 600px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.banner-button {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px 5px;
+}
+.banner-button input {
+  padding: 20px 8px;
+  margin: 8px 35px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+}
+.find-now {
+  display: flex;
+  align-items: center;
+}
+.find-now i {
+  position: absolute;
+  left: 1110px;
+  color: #fff;
+}
+.btn {
+  padding: 12px 50px;
+  width: 200px;
+  height: 60px;
+  background-color: #ff5400;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* ..........................popular section.............................  */
+
+.popular-section {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+}
+.popular-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.popular-description {
+  width: 80%;
+  margin: 25px 0px;
+}
+.popular-btn {
+  padding: 14px 34px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  border: none;
+}
+.popular-list {
+  max-width: 70%;
+}
+
+/* image section  */
+
+.img-section {
+  margin-top: 100px;
+}
+.img-section-heading {
+  text-align: center;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+.row-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.row-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.row-three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* ..................................choose section .................................. */
+
+.choose-row {
+  display: flex;
+  justify-content: space-between;
+}
+.hotel,
+.service,
+.best-price {
+  max-width: 570px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  padding: 32px;
+}
+.hotel,
+.service {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.best-price {
+  margin-left: 340px;
+}
+.hotel {
+  background: rgba(251, 181, 99, 0.05);
+}
+.service {
+  background: rgba(41, 206, 246, 0.05);
+}
+.best-price {
+  background: rgba(233, 68, 68, 0.05);
+}
+.choose-title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+/* .......................news letter style ............................... */
+
+.news-letter {
+  margin: 100px auto;
+  display: flex;
+}
+.form-container {
+  width: 40%;
+}
+form > input {
+  display: block;
+}
+.form-container {
+  padding: 20px 40px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  margin-right: 20px;
+}
+.form-container > input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  padding: 16px 250px 16px 20px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.subscribe-button {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  padding: 13px 190px;
+  color: white;
+  font-size: 14px;
+}
+.travelcom{
+    color: #FFF;
+    text-align: center;
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 0px;
+}
+.saveup{
+    color: #FFF;
+font-size: 32px;
 font-weight: 800;
+text-align: center;
+margin-top: 0px;
 }
-.home{
-    color: #FF5400;
+.feature{
+    border-radius: 16px;
+background: #FF5400;
+width: 20%;
+padding: 10px;
+position:absolute;
+left: 1060px;
+top: 3780px;
+transform: rotate(-19.628deg);
 }
-.icon{
-    font-size: 40px;
+
+/* ...............................footer section...............................   */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+.footer{
+    padding: 100px;
+    max-width: 60%;
+    text-align: center;
+    margin-left: 200px;
+}
+.footer-heading{
+    display: flex;
+    margin-left: 290px;
+}
+
+.footer i{
+    margin-right: 20px;
+    margin-bottom: 80px;
 }
 
 
@@ -44,28 +294,117 @@ font-weight: 800;
 
 
 
+@media screen and (max-width: 600px) {
+  .header,
+  .main {
+    margin: 10px 20px;
+  }
+  nav > ul {
+    display: none;
+  }
+  * {
+    margin: 5px 8px;
+  }
+  .banner {
+    background-size: cover;
+    padding: 10px;
+  }
+  .banner-button {
+    display: inline;
+  }
+  input {
+    width: 80%;
+  }
+  .banner .description {
+    max-width: 400px;
+    margin: 20px 40px;
+    margin-bottom: 20px;
+  }
+  .find-now .btn {
+    margin-left: 38px;
+    width: 85%;
+  }
+  .btn-primary {
+    padding: 5px 190px;
+  }
 
+  /* popular section   */
+  .popular-section {
+    display: block;
+  }
+  .popular-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  .popular-title {
+    font-size: 35px;
+  }
+  /* img section  */
+  .row-one {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .row-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .row-three {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  /* choose section  */
+  .choose-row {
+    display: block;
+  }
+  .choose-row > div {
+    width: 80%;
+  }
+  .best-price {
+    margin-left: 10px;
+  }
 
+  /* form sectiion  */
+  .news-letter {
+    display: block;
+  }
+  .news-letter img {
+    width: 100%;
+  }
+  .news-letter input {
+    width: auto;
+  }
+  .form-container {
+    padding: 5px;
+    overflow-x: unset;
+    width: fit-content;
+  }
+  .feature{
+    position:absolute;
+left: 290px;
+top: 5925px;
+width: 40%;
 
-
-
-
-
-
-
-
-
-@media screen and (max-width:600px){
-    nav > ul{
-        display: none;
-    }
-    *{
-        margin: 5px 8px;
-    }
-
+transform: rotate(-19.628deg);
 }
-/* @media  screen and (min-width:600px) {
-    .icon{
-        display: none;
-    }
-} */
+  /* footer section  */
+  .footer{
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0px;
+}
+.footer-heading{
+    display: flex;
+    margin-left: 120px;
+}
+  
+}
+
+@media screen and (min-width: 601px) {
+  .icon {
+    display: none;
+  }
+}
