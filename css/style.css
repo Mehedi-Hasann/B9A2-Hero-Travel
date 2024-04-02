@@ -264,12 +264,16 @@ left: 1060px;
 top: 3780px;
 transform: rotate(-19.628deg);
 }
+.maldives{
+    display: inline;
+}
 
 /* ...............................footer section...............................   */
 
 footer{
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
+    margin-top: 100px;
 }
 .footer{
     padding: 100px;
@@ -288,7 +292,71 @@ footer{
 }
 
 
+/* .........................extea section ........................ */
 
+
+.choose i{
+    font-size: 40px;
+  }
+.extra-container{
+    padding: 100px;
+    background-color: rgb(185, 224, 224);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.extra-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.feel-pain{
+    background-color: #b49a8d;
+    padding: 50px;
+    border-radius: 10px;
+}
+.feel-pain i{
+    font-size: 50px;
+}
+.extra-container .description2{
+    max-width: 70%;
+    margin-left: 180px;
+}
+.centered{
+    position: absolute;
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+
+.maldives {
+    top: 1652px;
+    left: 380px;
+  }
+.indonesia {
+    top: 1652px;
+    left: 1030px;
+  }
+.srilanka{
+    top: 2080px;
+    left: 270px;
+}
+.america{
+    top: 2080px;
+    left: 680px;
+}
+.kashmir{
+    top: 2080px;
+    left: 1150px;
+}
+.bangladesh{
+    top: 2520px;
+    left: 350px;
+}
+.bandarban{
+    top: 2520px;
+    left: 1000px;
+}
 
 
 
@@ -365,6 +433,7 @@ footer{
   .best-price {
     margin-left: 10px;
   }
+ 
 
   /* form sectiion  */
   .news-letter {
@@ -400,7 +469,53 @@ transform: rotate(-19.628deg);
     display: flex;
     margin-left: 120px;
 }
+
+/* extra section  */
   
+.extra-container{
+    padding: 10px;
+    background-color: rgb(185, 224, 224);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.extra-item{
+    display: block;
+    margin-top: 50px;
+}
+.extra-container .description2{
+    max-width: 70%;
+    margin-left: 70px;
+}
+.maldives {
+    top: 2180px;
+    left: 250px;
+  }
+.indonesia {
+    top: 2480px;
+    left: 250px;
+  }
+.srilanka{
+    top: 2820px;
+    left: 250px;
+}
+.america{
+    top: 3160px;
+    left: 230px;
+}
+.kashmir{
+    top: 3600px;
+    left: 230px;
+}
+.bangladesh{
+    top: 4000px;
+    left: 230px;
+}
+.bandarban{
+    top: 4320px;
+    left: 230px;
+}
+
 }
 
 @media screen and (min-width: 601px) {
